@@ -7,7 +7,11 @@ vim.g.gruvbox_baby_telescope_theme = 1
 vim.g.gruvbox_baby_transparent_mode = 1
 vim.g.gruvbox_material_transparent_background = 2
 vim.g.gruvbox_material_background = "hard"
-
+vim.cmd 'autocmd ColorScheme * highlight Normal ctermbg=none guibg=none'
+vim.cmd 'autocmd ColorScheme * highlight NonText ctermbg=none guibg=none'
+vim.cmd 'autocmd ColorScheme * highlight LineNr ctermbg=none guibg=none'
+vim.cmd 'autocmd ColorScheme * highlight Folded ctermbg=none guibg=none'
+vim.cmd 'autocmd ColorScheme * highlight EndOfBuffer ctermbg=none guibg=none'
 -- local schemes = { "gruvbox-material", "everforest", "nordfox", "duskfox" }
 local config = {
 
