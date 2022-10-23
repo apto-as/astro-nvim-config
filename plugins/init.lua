@@ -149,7 +149,7 @@ return {
 
   -- themes
   { 'Mofiqul/dracula.nvim' },
-
+  { 'nvim-lualine/lualine.nvim' },
   ["EdenEast/nightfox.nvim"] = {
     config = function()
       require("nightfox").setup {
